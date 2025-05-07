@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Tyler Radke -->
+<!-- activity_add_movie.xml -->
+<!-- Project 3 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Enter New Movie Title -->
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Enter New Movie"
+        android:layout_gravity="center"
+        android:textSize="25sp" />
+
+    <!-- Edit Text for Title -->
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter movie title"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <!-- Edit Text for Year -->
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter release year"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <!-- Edit Text for Genre -->
+
+    <EditText
+        android:id="@+id/genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter genre"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <!-- Edit Text for Rating -->
+
+    <EditText
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter rating"
+        android:textSize="20sp"
+        android:inputType="text" />
+
+    <!-- Edit Text for Submit Button -->
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:textSize="25sp"
+        android:onClick="backToFirst" />
+
+</LinearLayout>
